@@ -23,11 +23,11 @@ $(".spoiler button").click(function()
 	//3.2 Deshacerse del boton
 	$(this).remove();
 	})
-/*
+
 function enviarAdvertencia()
 {
-	jQuery(".advertencia").hide().show("slow");
+	jQuery(".spoiler").hide().show("slow");
 }
 //le pasamos al handler la funcion sin parentesis 
 $(document).ready(enviarAdvertencia);
-*/
+
